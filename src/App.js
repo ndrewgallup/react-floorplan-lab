@@ -5,7 +5,7 @@ import FloorPlan from './FloorPlan';
 function App() {
   return (
     <>
-      <FloorPlan key='FloorPlan' />
+      <FloorPlan />
     </>
   );
 }

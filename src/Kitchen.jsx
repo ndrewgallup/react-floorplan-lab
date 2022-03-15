@@ -3,10 +3,10 @@ import Sink from "./Sink";
 
 const Kitchen = (props) => {
   return (
-    <div>
+    <div className = 'kitchen'>
       <h2>Kitchen</h2>
-      <Oven key='Oven' />
-      <Sink key='Sink' />
+      <Oven />
+      <Sink />
     </div>
   )
 }
